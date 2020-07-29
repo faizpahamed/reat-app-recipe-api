@@ -24,6 +24,7 @@ export default class App extends Component {
       const jsonData = await data.json();
       const mode = this.state.mode;
       switch (mode) {
+        default:
         case 0:
           this.setState(
             {

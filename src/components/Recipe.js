@@ -7,6 +7,7 @@ export default class Recipe extends Component {
     let sourceUrl, image, imgUrl;
     const { id, title } = this.props.info;
     switch (mode) {
+      default:
       case 0:
         sourceUrl = this.props.info.sourceUrl;
         image = this.props.info.image;
