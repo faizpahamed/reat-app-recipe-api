@@ -29,7 +29,6 @@ export default class RecipeDetails extends Component {
     const { handleIndex } = this.props;
 
     const {
-      spoonacularSourceUrl,
       image,
       extendedIngredients,
       sourceName,
